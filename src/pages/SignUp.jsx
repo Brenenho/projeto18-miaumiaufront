@@ -20,7 +20,7 @@ export default function SignUp () {
   function signUp(e){
     e.preventDefault();
 
-    const URL = `${import.meta.env.VITE_API_URL}/signup/`;
+    const URL = `${import.meta.env.VITE_API_URL}/signup/`
 
     const novo = { name: nome, cpf: cpf, telefone: telefone, email: email, password: password, confirmPassword: confirmPassword }
 
