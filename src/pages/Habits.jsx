@@ -197,7 +197,7 @@ export default function Habits() {
             promise.then(resposta => {
                 
 
-                const url = `http://localhost:5000/mycats`;
+                const url = `${import.meta.env.VITE_API_URL}/mycats`;
 
                 const config = {
                     headers: {
