@@ -180,7 +180,7 @@ export default function Habits() {
 
         } else {
 
-            const URL = `http://localhost:5000/cats/${HabitoSelecionado.id}`
+            const URL = `${import.meta.env.VITE_API_URL}/cats/${HabitoSelecionado.id}`
 
             const novo = {}
 
