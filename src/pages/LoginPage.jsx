@@ -20,7 +20,7 @@ export default function LoginPage() {
   function LogIn(e) {
     e.preventDefault();
 
-    const URL = 'http://localhost:5000/signin/';
+    const URL = `${import.meta.env.VITE_API_URL}/signin/`;
 
     const novo = { email: email, password: password }
 

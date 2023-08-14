@@ -49,7 +49,7 @@ export default function MainApp() {
 
     useEffect(() => {
 
-        const url = `http://localhost:5000/cats/`;
+        const url = `${import.meta.env.VITE_API_URL}/cats/`;
 
         const promise = axios.get(url);
 

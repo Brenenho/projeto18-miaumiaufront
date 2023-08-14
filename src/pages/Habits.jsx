@@ -25,7 +25,7 @@ export default function Habits() {
 
     useEffect(() => {
 
-        const url = `http://localhost:5000/mycats`;
+        const url = `${import.meta.env.VITE_API_URL}/mycats`;
 
         const config = {
             headers: {
@@ -61,7 +61,7 @@ export default function Habits() {
         e.preventDefault();
 
 
-        const URL = 'http://localhost:5000/cats';
+        const URL = `${import.meta.env.VITE_API_URL}/cats`;
 
         const novo = { name: nome, descricao: descricao, image: imagem }
 
@@ -86,7 +86,7 @@ export default function Habits() {
 
 
 
-            const url = `http://localhost:5000/mycats`;
+            const url = `${import.meta.env.VITE_API_URL}/mycats`;
 
         const config = {
             headers: {
@@ -131,7 +131,7 @@ export default function Habits() {
             console.log(token)
 
 
-            const URL = `http://localhost:5000/cats/${HabitoSelecionado.id}`
+            const URL = `${import.meta.env.VITE_API_URL}/cats/${HabitoSelecionado.id}`
 
             const novo = {}
 

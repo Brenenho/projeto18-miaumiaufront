@@ -74,7 +74,7 @@ export default function CatDetailPage() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/cats/${id}`)
+      .get(`${import.meta.env.VITE_API_URL}/cats/${id}`)
       .then((response) => {
         setCatInfo(response.data);
       })
