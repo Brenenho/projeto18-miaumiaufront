@@ -22,7 +22,7 @@ export default function History() {
                         Histórico
                     </Titulo>
                     <SubTitulo>
-                        Em breve você poderá ver o histórico dos seus hábitos aqui!
+                        Em breve você poderá ver o histórico dos seus Miaudelos aqui!
                     </SubTitulo>
                 </ContentMain>
                 <Footer />
