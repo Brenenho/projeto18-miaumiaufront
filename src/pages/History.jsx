@@ -71,6 +71,7 @@ const SubTitulo = styled.p`
     font-family: 'Lexend Deca';
     font-style: normal;
     font-weight: 400;
+    align-self: center;
     font-size: 17.976px;
     line-height: 22px;
     margin-bottom: 28px;
